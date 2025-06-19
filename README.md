@@ -1,4 +1,4 @@
-# (Inserten aqui el nombre de su proyecto/Sistema)
+# (Sistema de renta y venta de almacenes)
 
 ## Integrantes del equipo
 
