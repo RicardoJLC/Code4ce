@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="600.0" style="-fx-background-color: #E8E5E5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="89.0" prefWidth="600.0" style="-fx-background-color: #F6CF60;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutY="36.0" prefHeight="66.0" prefWidth="602.0" style="-fx-background-color: #E8E5E5;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Separator layoutX="2.0" layoutY="28.0" prefHeight="3.0" prefWidth="594.0" />
+                  <Button layoutX="32.0" layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="SEDES">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="104.0" layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="EMPLEADOS" />
+                  <Button layoutX="561.0" layoutY="27.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="30.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="23.0" fitWidth="22.0">
+                           <image>
+                              <Image url="@../registro.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Separator layoutX="14.0" layoutY="56.0" opacity="0.13" prefHeight="4.0" prefWidth="541.0" style="-fx-background-color: #000000;" />
+                  <Label layoutX="244.0" layoutY="48.0" prefHeight="17.0" prefWidth="108.0" style="-fx-background-color: #E8E5E5;" text="  Registra una sede" textAlignment="CENTER" textFill="#00000079" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="402.0" layoutY="10.0" prefHeight="17.0" prefWidth="184.0" text="Angel Yazveck Alcocer Duran" AnchorPane.rightAnchor="14.0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="19.0" fitWidth="22.0" layoutX="374.0" layoutY="8.0" AnchorPane.rightAnchor="204.0">
+               <image>
+                  <Image url="@../usuario%202%20(1).png" />
+               </image>
+            </ImageView>
+            <Button layoutX="21.0" layoutY="7.0" mnemonicParsing="false" style="-fx-background-color: transparent;" />
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="17.0" layoutY="7.0">
+               <image>
+                  <Image url="@../salir.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="88.0" style="-fx-background-color: #E8E5E5;" BorderPane.alignment="CENTER">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E8E5E5;" />
+         </content>
+      </ScrollPane>
+   </center>
+</BorderPane>

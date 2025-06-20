@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="387.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../Rectangle%201.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="295.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="-1.0" layoutY="14.0" prefHeight="75.0" prefWidth="282.0" text="VENTA Y RENTA DE ALMACENES" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#f0f0f0" height="174.0" layoutX="35.0" layoutY="158.0" stroke="TRANSPARENT" strokeType="INSIDE" width="210.0" />
+            <ImageView fitHeight="81.0" fitWidth="81.0" layoutX="100.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../iconoINICIO-SESION%201.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="67.0" layoutY="213.0" promptText="User" style="-fx-background-color: transparent; -fx-border-color: #eb9234; -fx-border-width: 1; -fx-background-radius: 10; -fx-border-radius: 10;" />
+            <PasswordField layoutX="67.0" layoutY="257.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #eb9234; -fx-border-width: 1; -fx-background-radius: 10; -fx-border-radius: 10;" />
+            <ImageView fitHeight="18.0" fitWidth="17.0" layoutX="43.0" layoutY="218.0" opacity="0.37" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../usuario%202.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="19.0" fitWidth="19.0" layoutX="42.0" layoutY="261.0" opacity="0.37">
+               <image>
+                  <Image url="@../Candado%201.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="113.0" layoutY="294.0" mnemonicParsing="false" style="-fx-background-color: #39709A;" text="Ingresar" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

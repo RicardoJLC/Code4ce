@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="59.0" prefWidth="600.0" style="-fx-background-color: FFC107;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="39.0" layoutX="14.0" layoutY="9.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Vector.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="346.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Angel Yazveck Alcocer Duran" />
+            <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="300.0" layoutY="16.0">
+               <image>
+                  <Image url="@../../../../../Downloads/usuario%205.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="486.0" layoutX="23.0" layoutY="202.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Group%204.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="88.0" fitWidth="511.0" layoutX="23.0" layoutY="97.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Group%203.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="564.0" layoutY="3.0">
+               <image>
+                  <Image url="@../../../../../Downloads/Group%202.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="65.0" layoutY="32.0" opacity="0.52" strokeType="OUTSIDE" strokeWidth="0.0" text="SEDES" />
+            <Text layoutX="198.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMPLEADOS" />
+            <Line endX="100.0" layoutX="101.0" layoutY="39.0" opacity="0.45" startX="-100.0" />
+            <Line endX="100.0" layoutX="298.0" layoutY="39.0" opacity="0.38" startX="-100.0" />
+            <Line endX="100.0" layoutX="499.0" layoutY="39.0" opacity="0.42" startX="-100.0" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
